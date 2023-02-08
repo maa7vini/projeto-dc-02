@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    height: 80px;
+    width: 100%;
+    background-color: #D7D6D7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 70px;
+}
+
+.cena img {
+    height: 65px;
+}
+
+.cote img {
+    height: 55px;
+}
+
+header {
+    height: 100vh;
+    background-image: url(imagens/Novo-cardápio-54.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-left {
+    height: 100vh;
+    border: 1px solid red;
+}
+
+.header-form {
+    height: 100vh;
+    border: 1px solid red;
+}
